@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    justify-content: center;
+    background-color:rgb(255, 255, 255) ;
+    border-radius: 5px;
+    display: inline;
+    height: 20px;
+    padding: 3px;
+}
+nav li{ 
+    flex-direction: row;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: center;
+    font-family: DejaVu Sans Mono, monospace;
+    font-weight: bold;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(61, 60, 60);
+    font-size: 20px;
+    margin-top: 10px;
+}
+a:hover{
+    color:rgb(173, 171, 171) ;
+}
+.img-nav{
+    width: 250px;
+    margin: 8px;
+}
+.cor-fundo-linha-verde{
+    height: 8px;
+    background-color: #0E8C43;
+}
+.footer-subway{
+    background-color: #0E8C43;
+    padding: 10px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Página de Ínicio */
+
+.img-hand{
+    width: 800px;
+    border-radius: 50px;
+}
+.fundo-img-delivery{
+    width: 1200px;
+    background-color: #0c5c2d;
+    justify-self: center;
+    padding-bottom: 10px;
+    margin: 40px;
+    border-radius: 50px;
+}
+
+.botao-delivery{
+    padding: 10px;
+    background-color: rgb(187, 17, 17);
+    width: 250px;
+    margin: 10px;
+    border-radius: 30px;
+    justify-content: center;
+}
+.img-delivery{
+    width: 100px;
+}
+.delivery{
+
+}
+
+/* Página de Contato */
+
+#texto-contato-h2{
+    color: #118341;
+    font-family: DejaVu Sans Mono, monospace ;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    font-weight:bolder;
+    font-size: 40px;
+
+}
+.divform{
+    background-color: #c0d4b4;
+    padding: 10px;
+    margin: 20px;
+    justify-content: center;
+    border-radius: 30px;
+}
+.texto-contato{
+    color: #09361c;
+    font-family: DejaVu Sans Mono, monospace ;
+    margin: 5px;
+    font-weight: bold;
+}
+.formulario-contato{
+    color: rgb(61, 60, 60);
+    font-family: DejaVu Sans Mono, monospace;
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+.form-input{
+    padding: 7px;
+    margin: 5px;
+    color:  rgb(88, 88, 88);
+    border: none;
+    border-radius: 20px;
+}
+
+/* Página de cardápio */
+
+.img-cardapio{
+ width: 1900px;
+}
+.galeria-cardapio{
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+.titulo-produto-cardapio{
+    color: #118341;
+    font-family: DejaVu Sans Mono, monospace ;
+    margin: 20px;
+    font-weight:bolder;
+    font-size: 40px;
+    text-align: center;
+}
+.card-text{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: DejaVu Sans Mono, monospace;
+}
+.card-body{
+    background-color: #c0d4b4;
+}
+.cardapio{
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    margin: 20px;
+    width: 22rem;
+}
+
+
+

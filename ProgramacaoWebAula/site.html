@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela em HTML</title>
+    <style>
+        table{
+            background-color: rgb(240, 248, 217);
+            margin: auto;
+            border-color: rgb(103, 124, 75);
+        }
+        #nome{
+            text-align: center;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <table border="1"><!--Cria uma tabela-->
+        <tr>
+            <td id="nome" colspan="6"><b>Horário de Aula</b></td>
+            <!--colspan mescla colunas-->
+        </tr>
+        <tr>  <!--tr cria linha da tabela-->
+            <td>Segunda</td> <!--td cria célula-->
+            <td>Terça</td>
+            <td>Quarta</td>
+            <td>Quinta</td>
+            <td>Sexta</td>
+            <td>Sábado</td>
+        </tr>
+        <tr>
+             <td>Programação Web 1</td>
+             <td>Programação e algoritmos</td>
+             <td>Design Digital</td>
+             <td>Programação Web 1</td>
+             <td>Fundamentos Da Informática</td>
+             <td rowspan="2">Não Letivo</td>
+        </tr>
+        <tr> 
+            <td>Programação e Algoritmo</td> 
+            <td>Operação de Softwares Aplicativos</td> 
+            <td>Banco de Dados</td> 
+            <td>Ética e Cidadania Organizacional</td> 
+            <td>Inglês Instrumental</td> 
+        </tr>    
+    </table>
+</body>
+</html>

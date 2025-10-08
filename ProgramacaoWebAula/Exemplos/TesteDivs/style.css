@@ -1,0 +1,30 @@
+
+.divisoes{
+    background-color: rgb(131, 151, 121);
+}
+#topo{
+    height: 100px;
+    width: auto;
+    top: auto;
+    margin: 3px;
+}
+.conteudo{
+    background-color: rgb(196, 196, 196);
+    margin:auto;
+    padding: 4px;
+    width: 700px;
+    height: 400px;
+    margin-bottom:5px ;
+    margin-top: 5px;
+    text-align: justify;
+    align-content: center;
+}
+#rodape{
+    height: 100px;
+    width: auto;
+    bottom: auto;
+    margin: 3px;
+}
+img{
+    width: 500px;
+}

@@ -1,0 +1,38 @@
+.texto-amarelo{
+    background-color: rgb(247, 247, 198);
+}
+#paragrafo1{
+    color: black;
+}
+#paragrafo2{
+    color: rgb(85, 46, 46);
+}
+.caixas{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+.divisoes{
+    background-color: rgb(131, 151, 121);
+}
+#topo{
+    height: 100px;
+    width: auto;
+    top: auto;
+    margin: 3px;
+}
+#meio{
+    height: 600px;
+    width: 100px;
+    left: auto;
+    margin: 3px;
+}
+#rodape{
+    height: 100px;
+    width: auto;
+    bottom: auto;
+    margin: 3px;
+}
