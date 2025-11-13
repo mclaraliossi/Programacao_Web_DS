@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script >
+        //alert('Olá Mundo!');
+        console.log('Olá Mundo!');
+        function mudarCor() {
+            const elemento = document.getElementById("texto");
+            elemento.style.color = "blue"
+            elemento.style.fontWeight = "bold"
+        }
+        function mudarCor2() {
+            const elemento = document.getElementById("texto");
+            elemento.style.color = "black"
+            elemento.style.fontWeight = "lighter"
+        }
+        function pequeno(){
+            const elemento = document.getElementById("texto").style.fontSize = "12px"
+
+        }
+        function medio(){
+            const elemento = document.getElementById("texto").style.fontSize = "18px"
+
+        }
+        function grande(){
+            const elemento = document.getElementById("texto").style.fontSize = "24px"
+
+        }
+        function lightMode(){
+            const elemento = document.getElementById("modo");
+            elemento.style.backgroundColor = "white"
+            elemento.style.color = "black"
+        }
+        function darkMode(){
+            const elemento = document.getElementById("modo");
+            elemento.style.backgroundColor = "black"
+            elemento.style.color = "white"
+        }
+    </script>
+</head>
+<body id="modo">
+    <p id="texto">Clique no botão</p>
+    <button onclick="mudarCor()">
+    Mudar Cor</button>
+    <button onclick="mudarCor2()">
+    Mudar Cor</button>
+
+    <hr>
+
+    <button onclick="pequeno()">Pequeno</button>
+    <button onclick="medio()">Medio</button>
+    <button onclick="grande()">Grande</button>
+
+    <hr>
+
+    <button onclick="lightMode()">Light Mode</button>
+    <button onclick="darkMode()">Dark Mode</button>
+
+    <hr>
+    <br>
+    <h1>Bem vindo ao Site!</h1>
+    <br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sapien turpis, mattis at fermentum id, convallis id massa. 
+        Vivamus sit amet erat interdum, tincidunt quam quis, bibendum libero. Maecenas lacinia arcu a imperdiet convallis. 
+        Donec fermentum neque nec erat tempor dictum. Suspendisse potenti. Orci varius natoque penatibus et magnis dis parturient montes, 
+        nascetur ridiculus mus. Nullam dignissim sagittis erat a convallis.</p>
+    
+</body>
+</html>
